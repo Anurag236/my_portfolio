@@ -24,12 +24,15 @@
 
 .certificates__item h3{
     margin: 1.2 0 2rem;
+    text-align: center;
+    padding: 1rem;
 }
 
 .certificates__item-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    margin-left: 9rem;
 }
 
 

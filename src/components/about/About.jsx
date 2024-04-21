@@ -23,13 +23,13 @@ const About = () => {
             <article className='about__card'>
                <FaAward className='about__icon'/>
                <h5>Experience</h5>
-               <small>3+ Years Working</small>
+               <small>No workings yet</small>
             </article>
 
             <article className='about__card'>
                <FiUsers className='about__icon'/>
                <h5>Clients</h5>
-               <small>200+ WorldWide</small>
+               <small>50+ WorldWide</small>
             </article>
 
             <article className='about__card'>
@@ -39,11 +39,11 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non vero saepe dolorum esse expedita alias 
-            adipisci, a quia obcaecati eos aliquam fugit voluptatum asperiores laborum!
+          <p>Aspiring software and full-stack developer with strong programming skills, actively seeking challenging job opportunities 
+            or internships in the programming world to apply my knowledge and contribute to innovative projects.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Hire Me</a>
         </div>
       </div>
     </section>

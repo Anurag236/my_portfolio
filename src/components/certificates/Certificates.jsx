@@ -1,7 +1,7 @@
 import React from "react";
 import './certificates.css'
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG1 from "../../assets/c1.jpg";
+import IMG2 from "../../assets/c2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";

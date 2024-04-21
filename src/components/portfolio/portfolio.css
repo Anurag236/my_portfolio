@@ -23,6 +23,8 @@
 }
 
 .portfolio__item h3{
+    padding: 1rem;
+    text-align: center;
     margin: 1.2 0 2rem;
 }
 
@@ -30,7 +32,9 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    margin-left: 2.6rem;
 }
+
 
 
 /* =========== Media Queries (Medium devices) ============ */

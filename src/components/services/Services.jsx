@@ -11,33 +11,25 @@ const Services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>Bachelor's</h3>
+            <h3>Software Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Chitkara University</p>
+              <p>Proficiency in multiple programming languages.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Experience in developing scalable and maintainable code.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Understanding of algorithms and data structures.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Familiarity with software testing and debugging techniques.</p>
             </li>
           </ul>
         </article>
@@ -52,27 +44,27 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Mastery of HTML, CSS, and JavaScript.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Proficiency in front-end frameworks like React.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Knowledge of back-end development using Node.js.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Awareness of web development tools and libraries.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Familiarity with databases such as MongoDB.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Experience in deploying and managing web applications.</p>
             </li>
           </ul>
         </article>
@@ -81,33 +73,25 @@ const Services = () => {
 
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Project Management</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Proficiency in project planning, scheduling, and resource allocation.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Experience in defining project scope, objectives, and deliverables.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Ability to create and manage project documentation.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Capability to lead and motivate cross-functional teams.</p>
             </li>
           </ul>
         </article>

@@ -6,9 +6,9 @@ import { SiLeetcode } from "react-icons/si";
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-      <a href="http://linkedin.com" target='_blank'><BsLinkedin/></a>
-      <a href="http://github.com" target='_blank'><FaGithub/></a>
-      <a href="http://leetcode.com" target='_blank'><SiLeetcode/></a>
+      <a href="https://www.linkedin.com/in/anurag-kumar-a64242223/" target='_blank'><BsLinkedin/></a>
+      <a href="https://github.com/Anurag236" target='_blank'><FaGithub/></a>
+      <a href="https://leetcode.com/anurag_parjapat/" target='_blank'><SiLeetcode/></a>
     </div>
   );
 };

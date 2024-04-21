@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
+import IMG1 from "../../assets/pp1.png";
+import IMG2 from "../../assets/pp2.png";
+import IMG3 from "../../assets/pp3.png";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
@@ -11,51 +11,38 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com/Anurag236",
-    demo: "https://github.com/Anurag236",
+    title: "Social-Media App",
+    github: "https://github.com/Anurag236/Social-Media-App",
+    demo: "https://github.com/Anurag236/Social-Media-App",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com/Anurag236",
-    demo: "https://github.com/Anurag236",
+    title: "Chrome Extension",
+    github: "https://github.com/Anurag236/Chrome_Extension",
+    demo: "https://github.com/Anurag236/Chrome_Extension",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com/Anurag236",
-    demo: "https://github.com/Anurag236",
+    title: "Code Editor",
+    github: "https://github.com/Anurag236/code_editor",
+    demo: "https://github.com/Anurag236/code_editor",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com/Anurag236",
-    demo: "https://github.com/Anurag236",
+    title: "Appointment App",
+    github: "https://github.com/Anurag236/Medicare-Booking",
+    demo: "https://github.com/Anurag236/Medicare-Booking",
   },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com/Anurag236",
-    demo: "https://github.com/Anurag236",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com/Anurag236",
-    demo: "https://github.com/Anurag236",
-  },
+  
 ];
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {data.map(({id, image, title, github, demo}) => {
