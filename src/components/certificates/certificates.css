@@ -1,10 +1,10 @@
-.portfolio__container{
+.certificates__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
 
-.portfolio__item{
+.certificates__item{
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -12,21 +12,21 @@
     transition: var(--transition);
 }
 
-.portfolio__item:hover{
+.certificates__item:hover{
     border-color: var(--color-primary-variant);
     background: transparent;
 }
 
-.portfolio__item-image{
+.certificates__item-image{
     border-radius: 1.5rem;
     overflow: hidden;
 }
 
-.portfolio__item h3{
+.certificates__item h3{
     margin: 1.2 0 2rem;
 }
 
-.portfolio__item-cta{
+.certificates__item-cta{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
@@ -36,7 +36,7 @@
 /* =========== Media Queries (Medium devices) ============ */
 
 @media screen and (max-width: 1024px){
-    .portfolio__container{
+    .certificates__container{
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
@@ -46,7 +46,7 @@
 /* =========== Media Queries (Small devices) ============ */
 
 @media screen and (max-width: 600px){
-    .portfolio__container{
+    .certificates__container{
         grid-template-columns: 1fr;
         gap: 1rem;
     }
