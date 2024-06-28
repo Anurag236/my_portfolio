@@ -3,7 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/pp1.png";
 import IMG2 from "../../assets/pp2.png";
 import IMG3 from "../../assets/pp3.png";
-import IMG4 from "../../assets/portfolio4.jpg";
+import IMG4 from "../../assets/dr.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 

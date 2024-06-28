@@ -15,27 +15,27 @@ import 'swiper/css/pagination'
 const data = [
   {
     avatar: AVTR1,
-    name: "Ram Nivas",
+    name: "Shruti Sehwal",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur at dolores aspernatur. Excepturi repellat, delenitinemo officiis repellendus saepe voluptatem quibusdam porro beatae sint cumque ratione modi ex pariatur.",
+      "Anurag Kumar's expertise in soft skills is unparalleled. His communication and presentation abilities are exceptional, making him a standout professional in any team. Additionally, his skills in frontend and backend development have been a tremendous asset to our projects. I highly recommend Anurag for any role that requires strong interpersonal and professional skills, as well as technical proficiency.",
   },
   {
     avatar: AVTR2,
-    name: "Ram Nivas",
+    name: "Mayank Goyal",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur at dolores aspernatur. Excepturi repellat, delenitinemo officiis repellendus saepe voluptatem quibusdam porro beatae sint cumque ratione modi ex pariatur.",
+      "Anurag Kumar's expertise extends beyond his technical abilities. His experience in both frontend and backend development makes him a true full stack developer. He has consistently delivered high-quality work and has been a significant asset to our team. Anurag is a polished, skilled, and technically adept professional.",
   },
   {
     avatar: AVTR3,
-    name: "Ram Nivas",
+    name: "Ranbir Choudhary",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur at dolores aspernatur. Excepturi repellat, delenitinemo officiis repellendus saepe voluptatem quibusdam porro beatae sint cumque ratione modi ex pariatur.",
+      "Working with Anurag Kumar has been a pleasure. His robust experience in frontend and backend development has added significant value to our projects. Anurag's well-rounded skill set in technical areas makes him a highly valuable full stack developer and team member. His contributions have greatly enhanced our team's performance and project outcomes.",
   },
   {
     avatar: AVTR4,
-    name: "Ram Nivas",
+    name: "Kavya Sharma",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur at dolores aspernatur. Excepturi repellat, delenitinemo officiis repellendus saepe voluptatem quibusdam porro beatae sint cumque ratione modi ex pariatur.",
+      "Anurag Kumar has proven to be an exceptional full stack developer. His technical expertise in both frontend and backend development has significantly contributed to our projects' success. Anurag's ability to seamlessly integrate various technologies and deliver high-quality solutions is impressive. He is a valuable asset to any development team and consistently exceeds expectations.",
   },
 ];
 

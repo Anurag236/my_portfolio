@@ -2,47 +2,47 @@ import React from "react";
 import './certificates.css'
 import IMG1 from "../../assets/c1.jpg";
 import IMG2 from "../../assets/c2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG3 from "../../assets/c4.jpg";
+import IMG4 from "../../assets/c3.jpg";
+import IMG5 from "../../assets/c5.jpg";
+import IMG6 from "../../assets/c6.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Charts templates & infographics in Figma",
-    link: "https://github.com/Anurag236",
+    title: "Data Structures and Algorithms",
+    link: "https://drive.google.com/file/d/1H8Co5ycLbY1Pj5N_bh23KLT4jTF8O-U9/view",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figma",
-    link: "https://github.com/Anurag236",
+    title: "Advanced Web Development",
+    link: "https://drive.google.com/file/d/1QMRzguBE8IU7bzjp8hKOEeHztbsq4tzy/view",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Charts templates & infographics in Figma",
-    link: "https://github.com/Anurag236",
+    title: "Developing Front-End Apps with React",
+    link: "https://drive.google.com/file/d/1Y0FfiHH3mtiIpjMujjEhahUBo37CCEjW/view",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Charts templates & infographics in Figma",
-    link: "https://github.com/Anurag236",
+    title: "Developing Back-End Apps with Node.js and Express",
+    link: "https://drive.google.com/file/d/18crLJx5jdX8M8WFgslNXVQo-d2g1B8nV/view",
   },
   {
     id: 5,
     image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    link: "https://github.com/Anurag236",
+    title: "Certificate in Professional Soft Skills",
+    link: "https://drive.google.com/file/d/10nhp-M14eFEePBhjKnblui80Oh9j734W/view",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    link: "https://github.com/Anurag236",
+    title: "The Full Stack",
+    link: "https://drive.google.com/file/d/19SWBNDYZ9U8ZJKzHw4p7XbQKzHDYkFWQ/view",
   },
 ];
 const Certificates = () => {
