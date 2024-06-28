@@ -1,5 +1,42 @@
-import React from 'react'
-import './footer.css'
+// import React from 'react'
+// import './footer.css'
+// import { BsLinkedin } from 'react-icons/bs';
+// import { FiInstagram } from 'react-icons/fi';
+// import { IoLogoTwitter } from 'react-icons/io';
+
+// const Footer = () => {
+//   return (
+//     <footer>
+//       <a href="#" className='footer__logo'>Anurag Kumar</a>
+
+//       <ul className='permalinks'>
+//         <li><a href="#">Home</a></li>
+//         <li><a href="#about">About</a></li>
+//         <li><a href="#experience">Experience</a></li>
+//         <li><a href="#services">Services</a></li>
+//         <li><a href="#portfolio">Portfolio</a></li>
+//         <li><a href="#testimonials">Testimonials</a></li>
+//         <li><a href="#contact">Contact</a></li>
+//         </ul>
+
+//         <div className="footer__socials">
+//           <a href="https://linkedin.com"><BsLinkedin/></a>
+//           <a href="https://instagram.com"><FiInstagram/></a>
+//           <a href="https://twitter.com"><IoLogoTwitter/></a>
+//         </div>
+
+//           <div className="footer__copyright">
+//             <small>&copy; Anurag's Portfolio. All rights reserved.</small>
+//           </div>
+    
+//     </footer>
+//   )
+// }
+
+// export default Footer
+
+import React from 'react';
+import './footer.css';
 import { BsLinkedin } from 'react-icons/bs';
 import { FiInstagram } from 'react-icons/fi';
 import { IoLogoTwitter } from 'react-icons/io';
@@ -17,20 +54,19 @@ const Footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
-        </ul>
+      </ul>
 
-        <div className="footer__socials">
-          <a href="https://linkedin.com"><BsLinkedin/></a>
-          <a href="https://instagram.com"><FiInstagram/></a>
-          <a href="https://twitter.com"><IoLogoTwitter/></a>
-        </div>
+      <div className="footer__socials">
+        <a href="https://linkedin.com" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://instagram.com" rel="noreferrer"><FiInstagram/></a>
+        <a href="https://twitter.com" rel="noreferrer"><IoLogoTwitter/></a>
+      </div>
 
-          <div className="footer__copyright">
-            <small>&copy; Anurag's Portfolio. All rights reserved.</small>
-          </div>
-    
+      <div className="footer__copyright">
+        <small>&copy; Anurag's Portfolio. All rights reserved.</small>
+      </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
