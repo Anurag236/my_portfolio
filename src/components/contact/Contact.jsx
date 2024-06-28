@@ -35,7 +35,7 @@ const Contact = () => {
 
             <h4>Email</h4>
             <h5>anuragkumar3260@gmail.com</h5>
-            <a href="mailto:anuragkumar3260@gmail.com" target="_blank">
+            <a href="mailto:anuragkumar3260@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -45,7 +45,7 @@ const Contact = () => {
 
             <h4>Instagram</h4>
             <h5>anurag_parjapat</h5>
-            <a href="https://www.instagram.com/anurag_parjapat" target="_blank">
+            <a href="https://www.instagram.com/anurag_parjapat" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>

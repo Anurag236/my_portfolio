@@ -4,7 +4,6 @@ import { FaGraduationCap } from "react-icons/fa6";
 import { LuSchool } from "react-icons/lu";
 import { FaLocationDot } from "react-icons/fa6";
 import { GiMaterialsScience } from "react-icons/gi";
-import { MdGrade } from "react-icons/md";
 import { BsCalendarDateFill } from "react-icons/bs";
 import { BsPatchCheckFill } from "react-icons/bs";
 
