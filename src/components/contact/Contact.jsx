@@ -88,7 +88,6 @@
 
 // export default Contact;
 
-
 import React from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
@@ -105,17 +104,17 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_lr3ew4y',
-        'template_p75ggym',
+        "service_lr3ew4y",
+        "template_p75ggym",
         form.current,
-        'DcAlsQ86z9x9Oa-Dl'
+        "DcAlsQ86z9x9Oa-Dl"
       )
       .then((response) => {
-        console.log('Email sent successfully:', response.text);
+        console.log("Email sent successfully:", response.text);
         e.target.reset();
       })
       .catch((error) => {
-        console.error('Error sending email:', error);
+        console.error("Error sending email:", error);
       });
   };
 
@@ -131,7 +130,11 @@ const Contact = () => {
 
             <h4>Email</h4>
             <h5>anuragkumar3260@gmail.com</h5>
-            <a href="mailto:anuragkumar3260@gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:anuragkumar3260@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -141,7 +144,11 @@ const Contact = () => {
 
             <h4>Instagram</h4>
             <h5>anurag_parjapat</h5>
-            <a href="https://www.instagram.com/anurag_parjapat" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/anurag_parjapat"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -151,7 +158,11 @@ const Contact = () => {
 
             <h4>WhatsApp</h4>
             <h5>+91-8295160197</h5>
-            <a href="https://api.whatsapp.com/send?phone=+8295160197" target="_blank" rel="noreferrer">
+            <a
+              href="https://api.whatsapp.com/send?phone=+8295160197"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
