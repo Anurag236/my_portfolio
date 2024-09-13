@@ -41,7 +41,7 @@ const data = [
     title: "Home Rental Application",
     github: "https://github.com/Anurag236/Rental-Application",
     demo: "https://github.com/Anurag236/Rental-Application",
-  },
+  }
 ];
 const Portfolio = () => {
   return (
