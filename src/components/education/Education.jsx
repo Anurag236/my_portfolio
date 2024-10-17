@@ -48,7 +48,7 @@ const Education = () => {
             <article className="education__details">
               <BsPatchCheckFill className="education__details-icon" />
               <div>
-                <h4>9.39 CGPA</h4>
+                <h4>9.37 CGPA</h4>
               </div>
             </article>
             
